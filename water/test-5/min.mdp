@@ -1,0 +1,30 @@
+; Lines starting with ';' ARE COMMENTS
+; Everything following ';' is also comment
+
+title		= Energy Minimization	; Title of run
+
+; The following line tell the program the standard locations where to find certain files
+cpp		= /lib/cpp	; Preprocessor
+
+; Define can be used to control processes
+define          = -DFLEXIBLE
+
+; Parameters describing what to do, when to stop and what to save
+integrator	= steep		; Algorithm (steep = steepest descent minimization)
+emtol		= 100.0		; Stop minimization when the maximum force < 1.0 kJ/mol
+nsteps		= 2500		; Maximum number of (minimization) steps to perform
+nstenergy	= 1		; Write energies to disk every nstenergy steps
+energygrps	= System	; Which energy group(s) to write to disk
+
+; Parameters describing how to find the neighbors of each atom and how to calculate the interactions
+ns_type		= grid	; Method to determine neighbor list (simple, grid)
+coulombtype = PME		; Longrange electrostatics (Ewald)
+rvdw = 0.9
+rlist = 0.9
+rcoulomb = 0.9
+fourierspacing = 0.12
+pme_order = 4
+ewald_rtol = 1e-5		
+constraints	= none		; Bond types to replace by constraints
+pbc		= xyz		; Periodic Boundary Conditions (yes/no)
+

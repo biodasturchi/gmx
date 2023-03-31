@@ -1,0 +1,45 @@
+# This file was created Wed Feb 22 23:53:07 2023
+# Created by:
+#              :-) GROMACS - gmx energy, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/mirjr/Documents/github/bioinfo/gromacs/water/test-1
+# Command line:
+#   gmx energy -f npt.edr -o entalphy.xvg
+# gmx energy is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Enthalpy"
+    0.000000  -17404.167969
+    1.000000  -15068.698242
+    2.000000  -15697.108398
+    3.000000  -15438.664062
+    4.000000  -13894.928711
+    5.000000  -15758.805664
+    6.000000  -15328.325195
+    7.000000  -16594.755859
+    8.000000  -15694.757812
+    9.000000  -17055.136719
+   10.000000  -18296.095703
+   11.000000  -20098.773438
+   12.000000  -20160.019531
+   13.000000  -18643.099609
+   14.000000  -18794.417969
+   15.000000  -14835.771484
+   16.000000  -15637.016602
+   17.000000  -14661.174805
+   18.000000  -16235.031250
+   19.000000  -18219.296875
+   20.000000  -19331.208984

@@ -1,0 +1,1359 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 8 to "Courier", "Courier"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 18 to "NimbusMonoL-Bold", "NimbusMonoL-Bold"
+@map font 19 to "NimbusMonoL-BoldOblique", "NimbusMonoL-BoldOblique"
+@map font 20 to "NimbusMonoL-Regular", "NimbusMonoL-Regular"
+@map font 21 to "NimbusMonoL-RegularOblique", "NimbusMonoL-RegularOblique"
+@map font 22 to "NimbusMonoPS-Bold", "NimbusMonoPS-Bold"
+@map font 23 to "NimbusMonoPS-BoldItalic", "NimbusMonoPS-BoldItalic"
+@map font 24 to "NimbusMonoPS-Italic", "NimbusMonoPS-Italic"
+@map font 25 to "NimbusMonoPS-Regular", "NimbusMonoPS-Regular"
+@map font 26 to "NimbusRoman-Bold", "NimbusRoman-Bold"
+@map font 27 to "NimbusRoman-BoldItalic", "NimbusRoman-BoldItalic"
+@map font 28 to "NimbusRoman-Italic", "NimbusRoman-Italic"
+@map font 29 to "NimbusRoman-Regular", "NimbusRoman-Regular"
+@map font 30 to "NimbusRomanNo9L-Medium", "NimbusRomanNo9L-Medium"
+@map font 31 to "NimbusRomanNo9L-MediumItalic", "NimbusRomanNo9L-MediumItalic"
+@map font 32 to "NimbusRomanNo9L-Regular", "NimbusRomanNo9L-Regular"
+@map font 33 to "NimbusRomanNo9L-RegularItalic", "NimbusRomanNo9L-RegularItalic"
+@map font 34 to "NimbusSans-Bold", "NimbusSans-Bold"
+@map font 35 to "NimbusSans-BoldItalic", "NimbusSans-BoldItalic"
+@map font 36 to "NimbusSans-Italic", "NimbusSans-Italic"
+@map font 37 to "NimbusSans-Regular", "NimbusSans-Regular"
+@map font 38 to "NimbusSansL-Bold", "NimbusSansL-Bold"
+@map font 39 to "NimbusSansL-BoldCondensed", "NimbusSansL-BoldCondensed"
+@map font 40 to "NimbusSansL-BoldCondensedItalic", "NimbusSansL-BoldCondensedItalic"
+@map font 41 to "NimbusSansL-BoldItalic", "NimbusSansL-BoldItalic"
+@map font 42 to "NimbusSansL-Regular", "NimbusSansL-Regular"
+@map font 43 to "NimbusSansL-RegularCondensed", "NimbusSansL-RegularCondensed"
+@map font 44 to "NimbusSansL-RegularCondensedItalic", "NimbusSansL-RegularCondensedItalic"
+@map font 45 to "NimbusSansL-RegularItalic", "NimbusSansL-RegularItalic"
+@map font 46 to "NimbusSansNarrow-Bold", "NimbusSansNarrow-Bold"
+@map font 47 to "NimbusSansNarrow-BoldOblique", "NimbusSansNarrow-BoldOblique"
+@map font 48 to "NimbusSansNarrow-Oblique", "NimbusSansNarrow-Oblique"
+@map font 49 to "NimbusSansNarrow-Regular", "NimbusSansNarrow-Regular"
+@map font 50 to "P052-Bold", "P052-Bold"
+@map font 51 to "P052-BoldItalic", "P052-BoldItalic"
+@map font 52 to "P052-Italic", "P052-Italic"
+@map font 53 to "P052-Roman", "P052-Roman"
+@map font 54 to "StandardSymbolsL-Regular", "StandardSymbolsL-Regular"
+@map font 55 to "StandardSymbolsPS-Regular", "StandardSymbolsPS-Regular"
+@map font 12 to "Symbol", "Symbol"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 61 to "URWBookman-Demi", "URWBookman-Demi"
+@map font 62 to "URWBookman-DemiItalic", "URWBookman-DemiItalic"
+@map font 63 to "URWBookman-Light", "URWBookman-Light"
+@map font 64 to "URWBookman-LightItalic", "URWBookman-LightItalic"
+@map font 65 to "URWBookmanL-DemiBold", "URWBookmanL-DemiBold"
+@map font 66 to "URWBookmanL-DemiBoldItalic", "URWBookmanL-DemiBoldItalic"
+@map font 67 to "URWBookmanL-Light", "URWBookmanL-Light"
+@map font 68 to "URWBookmanL-LightItalic", "URWBookmanL-LightItalic"
+@map font 69 to "URWChanceryL-MediumItalic", "URWChanceryL-MediumItalic"
+@map font 70 to "URWGothic-Book", "URWGothic-Book"
+@map font 71 to "URWGothic-BookOblique", "URWGothic-BookOblique"
+@map font 72 to "URWGothic-Demi", "URWGothic-Demi"
+@map font 73 to "URWGothic-DemiOblique", "URWGothic-DemiOblique"
+@map font 74 to "URWGothicL-Book", "URWGothicL-Book"
+@map font 75 to "URWGothicL-BookOblique", "URWGothicL-BookOblique"
+@map font 76 to "URWGothicL-Demi", "URWGothicL-Demi"
+@map font 77 to "URWGothicL-DemiOblique", "URWGothicL-DemiOblique"
+@map font 78 to "URWPalladioL-Bold", "URWPalladioL-Bold"
+@map font 79 to "URWPalladioL-BoldItalic", "URWPalladioL-BoldItalic"
+@map font 80 to "URWPalladioL-Italic", "URWPalladioL-Italic"
+@map font 81 to "URWPalladioL-Roman", "URWPalladioL-Roman"
+@map font 82 to "Z003-MediumItalic", "Z003-MediumItalic"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Fri Mar 31 11:26:21 2023"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 270, 1000, 340
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 0.750000, 0.850000
+@    title "GROMACS Energies"
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Time (ps)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 200
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "(K)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 10
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.78, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 2
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 1.000000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "temp.xvg"
+@    s0 legend  "Temperature"
+@target G0.S0
+@type xy
+0 294.08466
+1 294.3356
+2 307.6308
+3 316.97592
+4 312.16272
+5 297.16608
+6 305.82364
+7 295.33401
+8 304.47909
+9 297.78955
+10 296.47302
+11 290.40216
+12 294.74365
+13 308.69464
+14 299.14307
+15 299.71326
+16 304.10666
+17 289.3334
+18 304.98273
+19 305.07925
+20 320.19385
+21 292.29001
+22 301.90729
+23 299.12555
+24 300.57822
+25 313.49823
+26 290.36233
+27 300.73941
+28 298.39935
+29 293.36249
+30 310.07251
+31 293.24262
+32 301.83206
+33 307.67645
+34 304.74399
+35 301.14136
+36 302.19373
+37 299.37885
+38 296.91492
+39 302.49789
+40 314.12402
+41 300.19589
+42 303.68555
+43 299.21884
+44 294.83939
+45 302.24698
+46 301.78857
+47 310.00082
+48 296.18353
+49 322.01843
+50 285.79947
+51 293.84726
+52 308.6492
+53 296.08682
+54 296.23309
+55 324.96936
+56 301.90314
+57 287.65308
+58 301.07156
+59 280.49149
+60 293.97198
+61 286.11221
+62 308.14304
+63 295.47842
+64 294.84296
+65 306.43863
+66 304.46771
+67 320.78851
+68 297.66031
+69 303.25915
+70 295.79709
+71 290.75839
+72 281.97568
+73 302.27844
+74 303.71954
+75 301.81345
+76 299.09994
+77 302.91275
+78 305.72925
+79 300.72104
+80 303.38309
+81 298.56787
+82 299.74106
+83 294.94842
+84 301.11969
+85 296.39761
+86 288.49145
+87 301.95383
+88 296.0509
+89 304.18445
+90 291.94547
+91 284.63882
+92 295.9527
+93 288.17413
+94 305.60959
+95 294.33798
+96 288.30008
+97 297.74222
+98 301.70169
+99 307.94339
+100 289.41782
+101 302.36999
+102 294.57867
+103 300.88745
+104 290.74713
+105 309.40445
+106 290.39847
+107 290.28992
+108 299.75748
+109 304.37012
+110 304.40399
+111 304.16891
+112 295.5972
+113 295.129
+114 297.62817
+115 301.11551
+116 302.58029
+117 297.43033
+118 298.25711
+119 287.1261
+120 305.81934
+121 303.2861
+122 298.48022
+123 297.71158
+124 283.23245
+125 285.31247
+126 296.68549
+127 298.25372
+128 304.96854
+129 295.27676
+130 309.45361
+131 299.20371
+132 299.2168
+133 309.47253
+134 303.8244
+135 306.97577
+136 300.41977
+137 315.95679
+138 298.98251
+139 285.48462
+140 295.72119
+141 284.96872
+142 294.49658
+143 287.52686
+144 293.17422
+145 299.51096
+146 294.70349
+147 304.37482
+148 308.61685
+149 285.74625
+150 292.60202
+151 310.44684
+152 298.8783
+153 298.41598
+154 301.08432
+155 291.15134
+156 304.30856
+157 293.83432
+158 296.20795
+159 304.1636
+160 287.97058
+161 299.84283
+162 301.98001
+163 299.7244
+164 310.44736
+165 312.96103
+166 314.45621
+167 306.5564
+168 314.57977
+169 300.91446
+170 302.39999
+171 298.15659
+172 296.06717
+173 290.17523
+174 287.19284
+175 290.29633
+176 298.47528
+177 296.09637
+178 297.72601
+179 294.93457
+180 304.46674
+181 306.67188
+182 310.91147
+183 296.94479
+184 294.29205
+185 295.64386
+186 291.14755
+187 292.52878
+188 316.74078
+189 288.77167
+190 301.09698
+191 305.5632
+192 298.39847
+193 292.36209
+194 307.95023
+195 301.32324
+196 317.22134
+197 308.69989
+198 306.85614
+199 296.38687
+200 302.52356
+201 296.87256
+202 297.56094
+203 302.5939
+204 294.82388
+205 293.66193
+206 298.91223
+207 298.83337
+208 300.86243
+209 289.81445
+210 301.40832
+211 301.45932
+212 302.34717
+213 303.12354
+214 298.67831
+215 296.80026
+216 322.8847
+217 296.88837
+218 307.29047
+219 302.66415
+220 302.59668
+221 302.74115
+222 310.44156
+223 303.67184
+224 294.86151
+225 302.90222
+226 310.90939
+227 301.23941
+228 302.58823
+229 289.93277
+230 292.43643
+231 293.8009
+232 305.98852
+233 311.84238
+234 294.47803
+235 294.9321
+236 305.0498
+237 287.42487
+238 305.80817
+239 292.10699
+240 289.02988
+241 297.86923
+242 306.32193
+243 295.67163
+244 296.78583
+245 278.72244
+246 324.58057
+247 296.08865
+248 296.12915
+249 299.21158
+250 306.41077
+251 313.1062
+252 300.50595
+253 305.81107
+254 307.34659
+255 305.52148
+256 295.09125
+257 306.57523
+258 295.19003
+259 296.68994
+260 300.14615
+261 300.53674
+262 290.69952
+263 301.30563
+264 298.45337
+265 307.64783
+266 304.01361
+267 311.67175
+268 303.4299
+269 294.66122
+270 298.14182
+271 300.80432
+272 304.23642
+273 283.0412
+274 312.3327
+275 299.71481
+276 300.39938
+277 295.67596
+278 298.5455
+279 296.98373
+280 303.30487
+281 292.82892
+282 310.9321
+283 299.63272
+284 290.67667
+285 294.59863
+286 296.2002
+287 304.98392
+288 301.95273
+289 299.62018
+290 281.16049
+291 310.1911
+292 301.06946
+293 301.51263
+294 294.37259
+295 306.30475
+296 298.41128
+297 298.30298
+298 305.06219
+299 300.78854
+300 307.58792
+301 301.59262
+302 300.09467
+303 299.89807
+304 309.65192
+305 300.23618
+306 291.75513
+307 311.72781
+308 304.50476
+309 303.63123
+310 305.53686
+311 297.76099
+312 302.20517
+313 288.90933
+314 303.16229
+315 310.03503
+316 299.85275
+317 301.87295
+318 304.86881
+319 301.00928
+320 306.478
+321 313.25604
+322 292.2077
+323 303.99396
+324 301.09329
+325 306.75583
+326 298.61233
+327 306.93719
+328 297.71677
+329 299.43893
+330 301.34576
+331 296.37003
+332 296.55408
+333 297.27646
+334 305.01034
+335 299.01651
+336 292.07236
+337 295.86066
+338 288.04529
+339 303.6485
+340 308.17984
+341 313.2977
+342 298.64975
+343 297.34277
+344 297.76508
+345 306.48379
+346 307.20621
+347 308.07596
+348 309.38608
+349 306.69531
+350 298.93204
+351 311.67468
+352 299.16269
+353 307.9429
+354 298.16049
+355 297.3197
+356 298.59885
+357 305.8305
+358 295.31363
+359 309.25424
+360 299.55832
+361 295.24039
+362 302.07153
+363 301.41745
+364 302.7959
+365 283.53189
+366 295.22452
+367 311.8248
+368 303.34286
+369 288.6456
+370 296.23886
+371 304.98276
+372 298.84946
+373 295.68829
+374 303.58139
+375 290.25278
+376 295.16754
+377 302.50113
+378 306.66055
+379 289.59604
+380 295.48572
+381 314.98459
+382 306.31342
+383 309.57523
+384 301.1441
+385 302.46661
+386 299.95282
+387 306.87186
+388 294.28726
+389 297.63092
+390 312.16016
+391 295.70727
+392 301.54001
+393 316.69196
+394 297.14502
+395 300.41641
+396 287.62262
+397 306.53494
+398 313.49051
+399 300.19406
+400 299.05539
+401 305.57098
+402 302.98386
+403 301.47784
+404 284.05145
+405 306.30731
+406 304.03656
+407 297.88678
+408 317.27402
+409 286.77777
+410 301.12833
+411 295.75503
+412 298.62555
+413 297.96423
+414 298.6246
+415 304.03049
+416 299.23486
+417 295.95822
+418 290.36584
+419 310.48434
+420 301.901
+421 303.22238
+422 306.22665
+423 309.81067
+424 304.77136
+425 298.96118
+426 306.83719
+427 304.18451
+428 296.75766
+429 307.39038
+430 289.26666
+431 292.43909
+432 306.41428
+433 292.90332
+434 306.69223
+435 298.42539
+436 282.67895
+437 299.96402
+438 296.19455
+439 285.44665
+440 282.82434
+441 303.76456
+442 303.9231
+443 300.48715
+444 322.46231
+445 300.00113
+446 278.98947
+447 289.02133
+448 307.76135
+449 288.86957
+450 298.9761
+451 294.90338
+452 296.62039
+453 319.72101
+454 307.63574
+455 299.54459
+456 295.31885
+457 311.07108
+458 318.75912
+459 299.64358
+460 300.1304
+461 309.33783
+462 290.94855
+463 308.44937
+464 296.65732
+465 304.94812
+466 299.12793
+467 308.68985
+468 303.06543
+469 287.63165
+470 297.3682
+471 289.27313
+472 298.06375
+473 307.74789
+474 298.28995
+475 311.54065
+476 304.60718
+477 319.54443
+478 302.71051
+479 277.93613
+480 303.03375
+481 297.35968
+482 289.0513
+483 308.97391
+484 289.08023
+485 310.93881
+486 284.99973
+487 288.78641
+488 296.55835
+489 301.6604
+490 288.87527
+491 301.6554
+492 303.87705
+493 309.41141
+494 290.77371
+495 300.84122
+496 291.19641
+497 300.55878
+498 318.12698
+499 297.0509
+500 304.53989
+501 304.74869
+502 294.50528
+503 299.79581
+504 296.40045
+505 303.42541
+506 300.33731
+507 312.27069
+508 302.99435
+509 297.12863
+510 294.58792
+511 297.48575
+512 300.30606
+513 305.85486
+514 298.72653
+515 297.24997
+516 295.30643
+517 292.60297
+518 301.68375
+519 289.65399
+520 298.71374
+521 306.22803
+522 306.38657
+523 307.677
+524 314.43955
+525 313.78751
+526 308.75674
+527 301.52508
+528 305.90643
+529 294.5332
+530 302.13089
+531 296.34701
+532 300.72119
+533 296.5097
+534 304.8103
+535 288.89166
+536 307.11713
+537 309.86993
+538 298.93112
+539 296.62979
+540 312.77026
+541 305.47836
+542 310.12369
+543 296.50064
+544 308.93198
+545 306.38388
+546 298.84515
+547 297.67862
+548 300.01715
+549 312.11868
+550 296.51654
+551 296.94241
+552 302.72409
+553 289.2085
+554 295.46432
+555 286.54748
+556 301.6958
+557 311.28766
+558 313.9126
+559 311.38785
+560 290.76926
+561 293.67935
+562 292.56152
+563 302.90625
+564 301.56802
+565 310.92868
+566 305.44714
+567 291.1893
+568 298.45496
+569 301.71484
+570 314.27139
+571 294.21561
+572 297.07788
+573 302.71414
+574 295.41196
+575 301.32251
+576 302.05924
+577 309.26172
+578 305.09531
+579 314.81247
+580 301.49393
+581 299.43518
+582 299.48553
+583 299.63425
+584 303.60303
+585 312.4003
+586 304.95239
+587 300.95428
+588 299.71634
+589 308.23355
+590 297.50149
+591 292.18445
+592 291.99893
+593 300.05984
+594 309.01144
+595 308.84427
+596 307.07126
+597 306.48379
+598 290.3945
+599 304.3887
+600 295.09442
+601 314.4263
+602 311.96899
+603 302.34421
+604 295.40109
+605 297.02026
+606 288.53931
+607 289.21399
+608 308.98547
+609 308.27576
+610 299.42752
+611 311.94302
+612 307.2327
+613 308.4715
+614 299.44229
+615 299.64212
+616 308.10269
+617 297.34225
+618 299.62588
+619 294.09241
+620 304.27158
+621 300.40561
+622 290.28119
+623 306.60223
+624 289.63754
+625 294.08398
+626 296.33414
+627 297.27618
+628 282.50827
+629 308.84351
+630 301.56839
+631 293.41119
+632 296.41043
+633 291.71356
+634 309.62402
+635 296.17303
+636 297.77991
+637 311.16653
+638 297.99686
+639 310.08148
+640 297.78458
+641 300.45651
+642 307.19714
+643 294.70306
+644 314.34369
+645 282.121
+646 305.83734
+647 307.09906
+648 304.19641
+649 295.06988
+650 302.80936
+651 293.48901
+652 306.00186
+653 301.11948
+654 305.54956
+655 303.6037
+656 293.0806
+657 292.50159
+658 292.05926
+659 295.32864
+660 291.87488
+661 303.71359
+662 292.02988
+663 282.74469
+664 304.41937
+665 305.62817
+666 302.23672
+667 317.51996
+668 290.44659
+669 291.42728
+670 291.40366
+671 305.70349
+672 294.70776
+673 300.88992
+674 293.55304
+675 304.57584
+676 298.21701
+677 299.30435
+678 307.27387
+679 307.23184
+680 308.71436
+681 306.0451
+682 295.49829
+683 306.67371
+684 307.15503
+685 304.12338
+686 310.74262
+687 295.01898
+688 312.33273
+689 292.65128
+690 299.3028
+691 295.47385
+692 294.61713
+693 296.26486
+694 299.26315
+695 301.61542
+696 294.66623
+697 294.20505
+698 300.85031
+699 307.09976
+700 305.7832
+701 293.60394
+702 307.41138
+703 292.51678
+704 306.05466
+705 313.11371
+706 300.7789
+707 294.67154
+708 296.19504
+709 303.65689
+710 292.06979
+711 313.12323
+712 298.22244
+713 291.9245
+714 312.22778
+715 299.58414
+716 310.43942
+717 307.69101
+718 297.65033
+719 300.45526
+720 290.53525
+721 300.20309
+722 302.11603
+723 293.95456
+724 300.96521
+725 295.69565
+726 298.14847
+727 297.5972
+728 287.5939
+729 310.3056
+730 291.82196
+731 301.06039
+732 294.0997
+733 290.33496
+734 300.23901
+735 302.35709
+736 290.2872
+737 311.86838
+738 311.13831
+739 305.64371
+740 305.14731
+741 305.60345
+742 296.51712
+743 296.3233
+744 301.06741
+745 303.56125
+746 302.86603
+747 287.879
+748 297.23416
+749 301.48843
+750 296.17013
+751 296.26434
+752 294.7774
+753 309.57907
+754 305.01056
+755 300.4249
+756 307.90299
+757 301.75922
+758 309.74435
+759 292.59012
+760 303.7872
+761 300.42749
+762 301.72928
+763 315.95236
+764 292.63629
+765 295.71359
+766 293.01382
+767 297.56485
+768 294.8736
+769 295.36893
+770 292.29419
+771 297.28693
+772 298.56876
+773 306.85202
+774 304.96246
+775 296.73969
+776 302.73462
+777 296.69043
+778 294.42081
+779 291.17752
+780 306.01443
+781 306.96844
+782 280.08157
+783 300.58514
+784 296.53653
+785 303.50619
+786 285.51468
+787 310.87436
+788 297.56982
+789 284.07754
+790 300.52274
+791 293.56912
+792 310.15097
+793 304.85178
+794 299.24454
+795 296.37198
+796 299.34473
+797 304.19665
+798 309.06259
+799 303.15698
+800 310.14337
+801 300.14905
+802 285.32303
+803 303.31488
+804 305.99564
+805 300.58758
+806 289.5856
+807 285.43686
+808 314.47513
+809 291.11111
+810 300.08124
+811 308.13248
+812 303.08585
+813 295.05875
+814 314.84573
+815 294.3454
+816 305.95956
+817 317.31561
+818 307.03314
+819 285.27151
+820 296.3417
+821 298.29831
+822 295.18607
+823 295.22192
+824 308.23321
+825 299.56268
+826 291.85043
+827 302.66849
+828 293.02756
+829 279.24942
+830 303.30472
+831 307.77753
+832 297.13245
+833 282.17557
+834 300.26462
+835 304.03531
+836 294.20453
+837 298.03204
+838 309.91183
+839 296.83221
+840 290.20306
+841 294.43768
+842 285.07425
+843 293.26898
+844 304.05728
+845 300.54721
+846 287.96472
+847 308.89121
+848 305.65701
+849 308.13016
+850 305.43863
+851 294.01187
+852 291.95587
+853 306.90564
+854 289.08267
+855 313.99817
+856 293.89774
+857 301.94083
+858 310.19217
+859 296.85336
+860 301.70435
+861 297.76892
+862 287.39926
+863 306.49353
+864 308.41834
+865 302.12274
+866 304.70084
+867 297.68133
+868 300.45206
+869 290.00952
+870 281.00827
+871 291.19784
+872 296.97092
+873 304.51889
+874 291.39447
+875 306.01056
+876 304.67468
+877 285.53342
+878 311.67291
+879 298.21091
+880 308.69174
+881 331.72598
+882 288.37479
+883 286.33136
+884 305.88629
+885 288.82059
+886 293.72592
+887 291.75601
+888 305.02801
+889 303.40698
+890 299.53317
+891 286.5621
+892 297.35257
+893 296.32327
+894 299.08975
+895 298.90472
+896 287.2055
+897 310.86169
+898 304.40994
+899 296.40234
+900 298.47659
+901 290.42221
+902 301.72134
+903 303.55728
+904 288.71225
+905 292.87393
+906 302.51065
+907 300.16812
+908 296.4718
+909 301.1766
+910 308.32239
+911 319.08359
+912 290.06186
+913 309.12894
+914 292.55179
+915 313.29773
+916 293.04465
+917 291.75592
+918 301.84338
+919 286.20706
+920 288.54388
+921 305.62503
+922 291.12469
+923 301.716
+924 305.6611
+925 306.28796
+926 312.20316
+927 304.43787
+928 312.68732
+929 298.76868
+930 287.00961
+931 291.23599
+932 307.08884
+933 292.69714
+934 297.42078
+935 310.7551
+936 316.54822
+937 295.78909
+938 304.95847
+939 302.29791
+940 299.01685
+941 292.27368
+942 286.99628
+943 291.38327
+944 314.60113
+945 289.1253
+946 293.92523
+947 294.05371
+948 311.58643
+949 292.11111
+950 306.25336
+951 300.35141
+952 306.09451
+953 303.63568
+954 305.05191
+955 304.50006
+956 302.22827
+957 288.38321
+958 299.24561
+959 297.52621
+960 301.91363
+961 298.375
+962 305.53186
+963 315.418
+964 285.98318
+965 290.25793
+966 287.58701
+967 299.55041
+968 312.02322
+969 298.37479
+970 306.16489
+971 296.46262
+972 301.93726
+973 308.93704
+974 299.95111
+975 305.7345
+976 294.65134
+977 292.94604
+978 298.47446
+979 301.47284
+980 306.86673
+981 310.37955
+982 297.59436
+983 297.55862
+984 304.80554
+985 307.76663
+986 289.76178
+987 309.67261
+988 298.57526
+989 298.67581
+990 302.39059
+991 304.00503
+992 309.1861
+993 295.07278
+994 305.90057
+995 308.14212
+996 302.72833
+997 306.25015
+998 302.4017
+999 290.20624
+1000 295.44644
+&

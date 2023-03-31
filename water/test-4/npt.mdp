@@ -1,0 +1,70 @@
+; VARIOUS PREPROCESSING OPTIONS
+title                    = NPT simulation (constant number, pressure and temperature)
+cpp                      = /lib/cpp
+;define                   = -DPOSRES
+
+; RUN CONTROL PARAMETERS
+integrator               = md
+dt                       = 0.002
+nsteps                   = 100000
+
+; OUTPUT CONTROL OPTIONS
+nstxout                  = 500
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 500 
+nstenergy                = 500
+nstxtcout                = 0
+xtc_precision            = 500
+xtc-grps                 = System
+energygrps               = system
+
+; NEIGHBORSEARCHING PARAMETERS
+nstlist                  = 5
+ns-type                  = Grid
+pbc                      = xyz
+rlist                    = 1.0
+
+; OPTIONS FOR ELECTROSTATICS AND VDW
+coulombtype = PME		; Longrange electrostatics (Ewald)
+rvdw = 1.0
+rcoulomb = 1.0
+fourierspacing = 0.12
+pme_order = 4
+ewald_rtol = 1e-5
+
+; Temperature coupling  
+Tcoupl                   = nose-hoover 
+tc-grps                  = system  
+tau_t                    = 0.1      
+ref_t                    = 300      
+
+; Pressure coupling     
+Pcoupl                   = parrinello-rahman
+Pcoupltype               = Isotropic
+tau_p                    = 1.0
+compressibility          = 4.5e-5
+ref_p                    = 1.0
+
+; GENERATE VELOCITIES FOR STARTUP RUN
+
+
+; OPTIONS FOR BONDS    
+constraints              = all-bonds
+
+refcoord_scaling    = com
+; Periodic boundary conditions
+; Dispersion correction
+DispCorr    = EnerPres          ; account for cut-off vdW scheme
+; Velocity generation
+gen_vel     = no                ; Velocity generation is on
+;gen_temp    = 310               ; temperature for velocity generation
+;gen_seed    = -1                ; random seed
+; COM motion removal
+; These options remove COM motion of the system
+nstcomm         = 5
+comm-mode       = Linear
+comm-grps       = System
+
+
+

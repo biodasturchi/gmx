@@ -1,0 +1,74 @@
+# This file was created Mon Feb 27 23:24:08 2023
+# Created by:
+#             :-) GROMACS - gmx density, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/mirjr/Documents/github/bioinfo/gromacs/water/test-3
+# Command line:
+#   gmx density -f ion.trr -s ion.tpr -o densitiy
+# gmx density is part of G R O M A C S:
+#
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
+#
+@    title "Partial density"
+@    xaxis  label "Coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+   0.0250541          1024.78
+   0.0751623          1033.24
+    0.125271            970.8
+    0.175379          986.581
+    0.225487          1012.53
+    0.275595          1059.14
+    0.325703          1021.32
+    0.375812          973.269
+     0.42592          950.966
+    0.476028          969.687
+    0.526136          995.947
+    0.576245          999.574
+    0.626353          961.612
+    0.676461          985.331
+    0.726569           976.16
+    0.776677          1001.38
+    0.826786          970.243
+    0.876894          999.465
+    0.927002          1036.19
+     0.97711          979.877
+     1.02722          964.039
+     1.07733          940.681
+     1.12744          963.967
+     1.17754          1017.36
+     1.22765          1039.74
+     1.27776          977.242
+     1.32787          997.746
+     1.37798          1038.64
+     1.42808          1071.34
+     1.47819          976.626
+      1.5283          964.847
+     1.57841          1007.21
+     1.62852          1001.63
+     1.67863          969.738
+     1.72873          970.772
+     1.77884          953.689
+     1.82895          993.352
+     1.87906          972.172
+     1.92917          1024.99
+     1.97927          973.873
+     2.02938           1029.2
+     2.07949           1022.6
+      2.1296          1013.57
+     2.17971          1046.95
+     2.22982          1042.48
+     2.27992          1001.25
+     2.33003          987.259
+     2.38014          1037.54
+     2.43025          1024.15
+     2.48036          1025.39
