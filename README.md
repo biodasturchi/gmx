@@ -82,5 +82,4 @@ gmx trjconv -s npt.tpr -f npt.trr -o frames.pdb -pbc mol
 gmx energy -f npt.edr -o temp.xvg
 xmgrace temp.xvg
 gmx energy -f npt.edr -o press.xvg
-```    
-# gmx
+```
