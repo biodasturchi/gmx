@@ -1,0 +1,58 @@
+; VARIOUS PREPROCESSING OPTIONS
+title                    = NVT simulation (constant number, volume and temperature)
+cpp                      = /lib/cpp
+;define                   = -DPOSRES
+
+; RUN CONTROL PARAMETERS
+integrator               = md 
+dt                       = 0.002
+nsteps                   = 10000
+
+; OUTPUT CONTROL OPTIONS
+nstxout                  = 0                    ; No output, except for last frame (coordinates)
+nstvout                  = 0                    ; No output, except for last frame (velocities)
+nstfout                  = 0                    ; No output, except for last frame (forces)
+nstlog                   = 10000                    ; Write every step to the log 
+nstenergy                = 1000                ; Write energies at every step
+nstxtcout                = 0                    ; Do not write a compressed trajectory
+energygrps               = system  ; Write energy information separately for these groups
+
+; NEIGHBORSEARCHING PARAMETERS
+nstlist                  = 5
+ns-type                  = Grid
+pbc                      = xyz
+
+; OPTIONS FOR ELECTROSTATICS AND VDW
+coulombtype = PME		; Longrange electrostatics (Ewald)
+rvdw = 1.0
+rlist = 1.0
+rcoulomb = 1.0
+fourierspacing = 0.12
+pme_order = 4
+ewald_rtol = 1e-5
+
+; Temperature coupling  
+tcoupl                   = v-rescale
+tc-grps                  = system 
+tau_t                    = 0.1     
+ref_t                    = 300  
+
+; Pressure coupling     
+pcoupl                   = no
+
+; OPTIONS FOR BONDS    
+constraints              = all-bonds
+refcoord_scaling    = com
+; Periodic boundary conditions
+; Dispersion correction
+DispCorr    = EnerPres          ; account for cut-off vdW scheme
+; Velocity generation
+gen_vel     = no               ; Velocity generation is on
+;gen_temp    = 310               ; temperature for velocity generation
+;gen_seed    = -1                ; random seed
+; COM motion removal
+; These options remove COM motion of the system
+nstcomm         = 5
+comm-mode       = Linear
+comm-grps       = system
+

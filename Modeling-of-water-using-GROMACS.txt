@@ -1,0 +1,42 @@
+GROMACS yordamida suvni modellashtirish / Modeling of water using GROMACS
+
+I.  Gromacsni yuklab olamiz va default faylini o'zimiz ishlayotgan papkaga ko'chirib olamaiz
+    >sudo apt install gromacs
+    >locate spc216.gro
+    >cp /usr/share/gromacs/top/spc216.gro ./
+
+II. #topology topology tuzib olish uchun komanda
+    >gmx pdb2gmx -f spc216.gro
+    >default OPLS -> 16
+    >default SPC -> 6
+
+III.#box o'lchamlarini oshirish orqali sistemadagi suv molekulalar sonini oshirish:
+    >gmx solvate -cs conf.gro -o out_conf.gro -box 2.5 -p topol.top
+
+IV. Energy minimization of water (min.mdp -> boundary = xyz)
+    min.mdp fayl kerak
+    >gmx grompp -f min.mdp -c out_conf.gro -p topol.top -o min -maxwarn 2
+    >gmx mdrun -deffnm min -v
+
+V.  # position restrained MD
+    pr.mdp fayli kerak
+    >gmx grompp -v -f pr.mdp -c min.gro -p topol.top -o pr -maxwarn 2
+    >gmx mdrun -v -deffnm pr   
+ 
+VI. # NVT
+    >gmx grompp -v -f nvt.mdp -c pr.gro -p topol.top -o nvt -maxwarn 2
+    >gmx mdrun -v -deffnm nvt
+
+VII.# NPT
+    >gmx grompp  -f npt.mdp -c nvt.gro -p topol.top -o npt -maxwarn 2 
+    >gmx mdrun -deffnm npt
+
+VIII. Trayektoriyani hisoblash
+    >gmx trjconv -s npt.tpr -f npt.trr -o frames.pdb -pbc mol
+VIX. Analyse
+    >gmx energy -f npt.edr -o temp.xvg
+    >xmgrace temp.xvg
+    >gmx energy -f npt.edr -o press.xvg
+    
+    >gmx analyze -f density.xvg
+    
