@@ -21,3 +21,6 @@ gmx grompp  -f npt.mdp -c nvt.gro -p topol.top -o npt -maxwarn 2
 gmx mdrun -deffnm npt
 
 
+# Trayektoriya
+gmx trjconv -f prod.trr -s prod.tpr -o frames.pdb -pbc mol -center
+

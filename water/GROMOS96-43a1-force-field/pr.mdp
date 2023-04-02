@@ -1,0 +1,38 @@
+; VARIOUS PREPROCESSING OPTIONS
+title                    = Position Restrained Molecular Dynamics
+define                   = -DPOSRES
+
+; RUN CONTROL PARAMETERS
+integrator               = md
+dt                       = 0.001 ; time step (ps)
+nsteps                   = 5000  ; number of steps
+
+; OUTPUT CONTROL OPTIONS
+nstenergy                = 1
+energygrps               = system
+
+; OPTIONS FOR ELECTROSTATICS AND VDW
+coulombtype = PME		; Longrange electrostatics (Ewald)
+rvdw = 1.0
+rlist = 1.0
+rcoulomb = 1.0
+fourierspacing = 0.12
+pme_order = 4
+ewald_rtol = 1e-5
+
+; Temperature coupling  
+tcoupl                   = V-rescale       ; Couple temperature to external heat bath according to V-rescale method
+tc-grps                  = system          ; Use separate heat baths for Protein and Non-Protein groups
+tau_t                    = 0.1             ; Coupling time constant, controlling strength of coupling
+ref_t                    = 200             ; Temperature of heat bath
+
+; GENERATE VELOCITIES FOR STARTUP RUN
+gen_vel                  = yes    ; Assign velocities to particles by taking them randomly from a Maxwell distribution
+gen_temp                 = 200.0  ; Temperature to generate corresponding Maxwell distribution
+gen_seed                 = 9999   ; Seed for (semi) random number generation. Different numbers give different sets of velocities
+
+; OPTIONS FOR BONDS    
+constraints              = all-bonds ; All bonds will be treated as constraints (fixed length)
+
+
+
