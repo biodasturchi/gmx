@@ -30,6 +30,8 @@ cmake .. -DGMX_GPU=CUDA -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda
 make
 make check
 sudo make install
+
+# Add this code to your .bashrc or .bashrc_profile file:
 source /usr/local/gromacs/bin/GMXRC
 
 # https://manual.gromacs.org/current/install-guide/index.html

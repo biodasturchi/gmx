@@ -1,0 +1,74 @@
+# This file was created Tue Apr  4 17:35:08 2023
+# Created by:
+#                      :-) GROMACS - gmx density, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/mirjr/Documents/github/bioinfo/gmx/water/test-6
+# Command line:
+#   gmx density -f ion.trr -s ion.tpr -n index.ndx -o outdensity -d Z
+# gmx density is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Partial density"
+@    xaxis  label "Average coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "System"
+   0.0249312          967.014
+   0.0747937          954.728
+    0.124656          955.731
+    0.174519           976.25
+    0.224381          957.587
+    0.274243          943.485
+    0.324106           974.42
+    0.373968          977.439
+    0.423831          955.831
+    0.473693          964.355
+    0.523556          951.254
+    0.573418          945.028
+     0.62328          950.737
+    0.673143          963.036
+    0.723005           963.23
+    0.772868          952.121
+     0.82273          958.928
+    0.872593          950.585
+    0.922455          940.722
+    0.972317          963.315
+     1.02218          957.953
+     1.07204          962.109
+      1.1219           966.25
+     1.17177          962.622
+     1.22163          946.142
+     1.27149          970.563
+     1.32135          956.735
+     1.37122          956.643
+     1.42108          973.752
+     1.47094          960.736
+      1.5208          976.583
+     1.57067          959.552
+     1.62053          965.521
+     1.67039          947.435
+     1.72025          964.956
+     1.77012          969.191
+     1.81998           957.73
+     1.86984           952.21
+      1.9197          952.529
+     1.96957          956.267
+     2.01943          948.666
+     2.06929          966.697
+     2.11915          955.073
+     2.16902            958.4
+     2.21888          954.574
+     2.26874          963.145
+      2.3186          958.109
+     2.36847           963.54
+     2.41833          961.037
+     2.46819          966.299

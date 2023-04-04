@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: mirjr (1000)
 ;	On host: dev
-;	At date: Sat Apr  1 13:11:53 2023
+;	At date: Tue Apr  4 17:14:18 2023
 ;
 ;	Created by:
 ;	                      :-) GROMACS - gmx grompp, 2023 (-:
@@ -11,7 +11,7 @@
 ;	Data prefix:  /usr/local/gromacs
 ;	Working dir:  /home/mirjr/Documents/github/bioinfo/gmx/water/test-6
 ;	Command line:
-;	  gmx grompp -v -f prod.mdp -c npt.gro -p topol.top -o prod -maxwarn 2
+;	  gmx grompp -v -f prod.mdp -c ion.gro -p topol.top -o ion -maxwarn 2
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.
@@ -138,7 +138,7 @@ nsttcouple               = -1
 nh-chain-length          = 10
 print-nose-hoover-chain-variables = no
 ; Groups to couple separately
-tc-grps                  = SOL
+tc-grps                  = system
 ; Time constant (ps) and reference temperature (K)
 tau_t                    = 0.1
 ref_t                    = 300
@@ -171,7 +171,7 @@ annealing-temp           =
 ; GENERATE VELOCITIES FOR STARTUP RUN
 gen_vel                  = no
 gen-temp                 = 300
-gen-seed                 = -704643270
+gen-seed                 = -274114565
 
 ; OPTIONS FOR BONDS    
 constraints              = h-bonds

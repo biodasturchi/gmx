@@ -39,4 +39,6 @@
 
 [ molecules ]
 ; Compound        #mols
-SOL               510
+SOL         500
+NA               5
+CL               5

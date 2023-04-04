@@ -1,0 +1,24 @@
+# This file was created Tue Apr  4 17:21:45 2023
+# Created by:
+#                        :-) GROMACS - gmx msd, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/mirjr/Documents/github/bioinfo/gmx/water/test-6
+# Command line:
+#   gmx msd -f ion.trr -s ion.tpr -mol -n index.ndx
+# gmx msd is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Mean Squared Displacement / Molecule"
+@    xaxis  label "Molecule"
+@    yaxis  label "D(1e-5 cm^2/s)"
+@TYPE xy
+      0.000          2
+      1.000          4
+      2.000      1e+01
+      3.000          7
+      4.000        0.8
+      5.000          1
+      6.000          1
