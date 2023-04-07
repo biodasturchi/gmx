@@ -1,0 +1,18 @@
+# This file was created Fri Apr  7 14:07:07 2023
+# Created by:
+#                        :-) GROMACS - gmx msd, 2023 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/mirjr/Documents/github/bioinfo/gmx/1dem
+# Command line:
+#   gmx msd -f prod.trr -s prod.tpr -mol -o diffusion.xvg
+# gmx msd is part of G R O M A C S:
+#
+# GROwing Monsters And Cloning Shrimps
+#
+@    title "Mean Squared Displacement / Molecule"
+@    xaxis  label "Molecule"
+@    yaxis  label "D(1e-5 cm^2/s)"
+@TYPE xy
+      0.000       0.05
