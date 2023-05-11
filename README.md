@@ -2,6 +2,8 @@
 
 ## Kirish | GROMACS yordamida suvni modellashtirish / Introduction | Modeling of water using GROMACS
 
+> Maqola manzili: https://www.biodasturchi.uz/posts/2023-04-23-gmx-introduction.html
+
 ### 1. Gromacsni yuklab olamiz va default fayllarini o'zimiz ishlayotgan papkaga ko'chirib olamaiz
 
 ```bash
